@@ -1,0 +1,47 @@
+@import "compass";
+@import "partials/variables";
+@import "partials/normalize";
+@import "partials/mixins";
+@import "partials/base";
+@import "compass/css3";
+
+.screen{
+  border-radius: 20px;
+  width: 200px;
+  height: 30px;
+}
+
+.second-row{
+  #six{
+  color: blue;
+  }
+}
+.row{
+  margin: 2px 2px;
+  small{
+    font-size: 15px;
+    color: $alice-blue;
+    font-weight: bold;
+  }
+button{
+  height: 50px;
+  width: 50px;
+  margin: 4px 3px;
+  opacity: 0.8;
+  &:hover{
+  opacity: 1;
+}
+  }
+}
+
+#plus{
+  margin: -116px -180px 0px 0px;
+  height: 110px; }
+
+ #calc{
+   width: 350px;
+  background-color: $main-green;
+  margin-top: 50px;
+  border: 2px solid;
+  border-radius: 10px;
+}
